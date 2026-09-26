@@ -10,8 +10,8 @@
 # fail with "no value for required variable" until they're set.
 # =============================================================================
 
-project_name = "project2-v2"            # lowercase letters, numbers, hyphens only
-alert_email  = "amboymacrian@gmail.com" # AWS sends a confirmation link here after apply
+project_name = "p2p3"            # lowercase letters, numbers, hyphens only
+alert_email  = "your-email@example.com" # AWS sends a confirmation link here after apply
 
 # =============================================================================
 # EVERYTHING BELOW HAS A DEFAULT IN variables.tf. Uncomment and change only
@@ -39,7 +39,7 @@ private_subnet_cidrs = ["10.0.11.0/24", "10.0.12.0/24"]
 # Costs real money per hour + data processing while on. Needed if compute
 # should have outbound internet access (e.g. package installs, SSM).
 
-enable_nat_gateway = true
+enable_nat_gateway = false
 
 # ---------------------------------------------------------------------------
 # KMS
