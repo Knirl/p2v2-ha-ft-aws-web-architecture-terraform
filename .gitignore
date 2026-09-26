@@ -26,7 +26,7 @@ crash.*.log
 # project_name, alert_email, and anything else you set locally.
 # The .example file (committed) is the template; this is the real one.
 # ---------------------------------------------------------------------------
-*.tfvars
+# *.tfvars
 *.tfvars.json
 !terraform.tfvars.example
 
